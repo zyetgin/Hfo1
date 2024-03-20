@@ -1,1 +1,1 @@
-Matlab source code for HFO-1 Algorithm defined  in the paper: Z. Yetgin, U. Ercan, "Honey formation optimization with single component for numerical function optimization: HFO-1", Neural Computing and Applications, 2023
+Matlab source code for HFO-1 Algorithm defined  in the paper(please cite it to use the code): Z. Yetgin, U. Ercan, "Honey formation optimization with single component for numerical function optimization: HFO-1", Neural Computing and Applications, 2023
