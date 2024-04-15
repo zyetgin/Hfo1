@@ -335,6 +335,17 @@ function y=EpsilonSame(cost)
 	y= all(fx1==fx2) && all(exp1==exp2) && all(abs(coef1-coef2)<0.1);
 end
 
+function x=unifrnd(lb,ub,shape)
+  if nargin==2, n=1; else n=shape(2); end 
+  x=rand(1,n).*(ub-lb)+lb;
+end
+
+function samples=randsample(arr,n)
+   len = length(arr);
+   indices = randperm(len, n);
+   samples = arr(indices);
+end
+
 %trid function as demo, alternatively you can define ObjectiveFun in the folder as well. 
 function [y] = ObjectiveFun(x)
     d = length(x);
